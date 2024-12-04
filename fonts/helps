@@ -1,0 +1,21 @@
+Папка fonts/
+Призначення: Зберігає кастомні шрифти.
+
+Приклад вмісту:
+
+plaintext
+Копіювати код
+fonts/
+├── OpenSans-Regular.woff
+├── OpenSans-Bold.woff
+└── Roboto-Italic.woff2
+Рекомендації:
+
+Використовуй сучасні формати шрифтів (наприклад, WOFF2).
+Завантажуй шрифти через CSS:
+css
+Копіювати код
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
+}

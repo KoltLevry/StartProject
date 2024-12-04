@@ -1,0 +1,87 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 40px;
+  background-color: rgba(0, 0, 0, 0.97);
+  color: white;
+  z-index: 5;
+}
+
+.header__logo img {
+  height: 80px;
+}
+
+.header__logo:hover,
+.header__language-switcher:hover,
+.header__user-icon:hover,
+.header__search-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header__greeting {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  font-size: 34px;
+}
+
+/* @keyframes scroll-text {
+  0% {
+    transform: translateX(20%); Починає за правим краєм
+  }
+  100% {
+    transform: translateX(-20%); Закінчує за лівим краєм
+  }
+}
+
+.header__greeting::after {
+  content: ''; Забезпечує плавний вигляд
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(50deg, rgba(0,0,0,0,) 0%, black 100%);
+  pointer-events: none;
+}
+
+.header__greeting {
+  animation: scroll-text 10s linear infinite; Прокрутка кожні 8 секунд
+} */
+
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-controls img{
+  width: 32px;
+  height: 32px;
+}
+
+.header__search-input {
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.header__search-btn {
+    height: 24px;
+    /* border: none; */
+}
