@@ -2,6 +2,7 @@
 @import url('../css/components/reset.css');
 @import url('../css/global/footer.css');
 @import url('../css/global/header.css');
+@import url('../css/global/main.css');
 
 
 * {
@@ -26,6 +27,7 @@ body {
 
 main {
     padding-top: 120px;
+    flex: 1;
 }
 
 #root {
