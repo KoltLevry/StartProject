@@ -22,6 +22,7 @@
 .header__search-btn:hover{
     cursor: pointer;
     transform: scale(1.2);
+    color: white;
 }
 
 .header__greeting {
@@ -29,7 +30,8 @@
   overflow: hidden;
   display: inline-block;
   position: relative;
-  font-size: 34px;
+  font-size: 24px;
+  color: #ffe1c7a3;
 }
 
 /* @keyframes scroll-text {
@@ -60,7 +62,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
+    font-size: 20px;
+}
+
+.header__nav a {
+  color: #ffe1c7a3;
 }
 
 .header-controls {

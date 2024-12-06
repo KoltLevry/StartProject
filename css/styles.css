@@ -16,6 +16,7 @@ h1,h2.h3,h4,h5,h6,ul,ol,li {
 
 body, html {
     min-width: 100%;
+    background-color: black;
 }
 
 #root {
@@ -40,7 +41,7 @@ body {
 
 main {
     margin: 0;
-    padding-top: 100px;
+    padding-top: 90px;
     flex: 1;
 }
 
